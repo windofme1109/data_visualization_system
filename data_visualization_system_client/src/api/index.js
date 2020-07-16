@@ -64,11 +64,22 @@ export const reqReceiveMsgList = () => {
 export const reqReadMsg = (from) => {
     return ajax('/readmsg', {from: from}, 'POST') ;
 }
-
+/**
+ *
+ * @param userID
+ * @param dataType
+ * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
+ */
 export const reqGetUserHealth = (userID, dataType) => {
     return ajax('/basedatashow', {userID, dataType}) ;
 }
 
+/**
+ *
+ * @param userID
+ * @param statisticsDataType
+ * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
+ */
 export const reqGetStatisticsData = (userID, statisticsDataType) => {
     return ajax('/statisticsdata', {userID, statisticsDataType}) ;
 }
