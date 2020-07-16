@@ -79,7 +79,9 @@ router.post('/register', function(req, res) {
 
 
 }) ;
-
+/**
+ * 处理登录的post请求
+ */
 router.post('/login', function(req, res) {
     var {username, password} = req.body ;
 
@@ -121,6 +123,9 @@ router.post('/login', function(req, res) {
 
 }) ;
 
+/**
+ * 处理获取用户信息的get请求
+ */
 router.get('/user', function(req, res) {
     // 获取cookies中user_id
     var user_id = req.cookies.user_id ;
