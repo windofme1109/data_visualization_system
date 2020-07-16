@@ -1,25 +1,15 @@
+import {reqGetStatisticsData, reqGetUser, reqGetUserHealth, reqLogin, reqRegister} from '../api/index'
 import {
-    reqLogin,
-    reqRegister,
-    reqUpdateUserInfo,
-    reqGetUser,
-    reqGetUserList,
-    reqReadMsg,
-    reqReceiveMsgList,
-    reqGetUserHealth,
-    reqGetStatisticsData
-} from '../api/index'
-import {
-    AUTH_SUCCESS,
     AUTH_FAILURE,
-    RECEIVE_USER_INFO,
-    RESET_USER_INFO,
-    GET_USER_HEARTRATE_HEALTH_DATA,
+    AUTH_SUCCESS,
+    GET_CORRELATION_DATA,
     GET_USER_BLOODOXYGEN_HEALTH_DATA,
     GET_USER_BLOODPRESSURE_HEALTH_DATA,
+    GET_USER_HEARTRATE_HEALTH_DATA,
     GET_USER_INFO_DATA,
     GET_USER_STEP_HEALTH_DATA,
-    GET_CORRELATION_DATA
+    RECEIVE_USER_INFO,
+    RESET_USER_INFO
 } from './action-types'
 
 
