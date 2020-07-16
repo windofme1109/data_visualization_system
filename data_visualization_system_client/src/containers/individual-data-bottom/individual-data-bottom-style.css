@@ -1,0 +1,140 @@
+.individual-data-bottom {
+    /*width: 100%;*/
+    height: 270px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    /*border: 1px solid orangered;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.individual-data-bottom .data-bottom-left,.data-bottom-center,.data-bottom-right {
+    /*flex: 3;*/
+    width: 33%;
+    /*height: 100%;*/
+    margin: 5px 0px;
+    background-color: #041436;
+    opacity: 0.5;
+    position:relative;
+    /*border: 1px solid greenyellow;*/
+}
+
+
+
+.individual-data-bottom .data-bottom-center {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.individual-data-bottom .center_text {
+    width: 100%;
+    height: 100%;
+    /*margin-bottom: 20px;*/
+    /*margin-left: 15px;*/
+    /*margin-right: 25px;*/
+    box-sizing: border-box;
+    border: 1px solid #2C58A6;
+    box-shadow: 0px 0px 6px #2C58A6;
+    position: relative;
+}
+
+.t_line_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.t_line_box i {
+    background-color: #4788fb;
+    box-shadow: 0px 0px 10px #4788fb;
+    position: absolute;
+}
+
+.t_r_line {
+    height: 5px;
+    width: 26px;
+    right: -3px;
+    bottom: -3px;
+}
+.r_t_line {
+    width: 5px;
+    height: 24px;
+    right: -3px;
+    bottom: -3px;
+}
+.l_b_line {
+    width: 5px;
+    height: 24px;
+    left: -3px;
+    bottom: -3px;
+}
+.b_l_line{
+    height: 5px;
+    width: 26px;
+    left: -3px;
+    bottom: -3px;
+}
+.r_b_line {
+    width: 5px;
+    height: 24px;
+    right: -3px;
+    bottom: -3px;
+}
+.b_r_line {
+    height: 5px;
+    width: 26px;
+    right: -3px;
+    bottom: -3px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-items: center;*/
+    margin-top: 10%;
+
+}
+
+#container .circle {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    /*top: calc(50% - 50px) ;*/
+    border: 4px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    background-clip: padding-box;
+    padding: 10px;
+    /* just to show box-shadow still works fine */
+    box-shadow: 0 3px 9px #09b8ff, inset 0 0 9px #ad1aee;
+    /*margin:auto;*/
+    /*margin-top: 15%;*/
+}
+.circle:after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(#09b8ff, #ad1aee);
+    content: '';
+    z-index: -1;
+    border-radius: 50%;
+}
+#container .circle p {
+    color: white;
+    text-align: center;
+}
+.first {
+    padding-top: 6px;
+}
+
+.anomaly-detection-title {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei';
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.individual-data-container {
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*min-width: 1366px;*/
+    /*overflow: hidden;*/
+}
+.individual-data-container .data-top,.data-bottom {
+    /*width: 100%;*/
+    height: 250px;
+    margin: 10px 15px 0 15px;
+    border: 1px solid orangered;
+
+}

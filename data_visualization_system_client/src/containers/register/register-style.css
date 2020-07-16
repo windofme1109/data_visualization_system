@@ -1,0 +1,31 @@
+body {
+    /*添加背景图片，center/cover是position和size的合写*/
+    background: url('../../assets/images/login-background.jpg') center/cover no-repeat;
+}
+
+.register {
+    margin: 0 auto;
+    width: 380px;
+    padding: 60px 0;
+
+    height: auto;
+    text-align: center;
+
+}
+
+.register .title {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,.3);
+}
+
+.register .form {
+    margin-top: 45px;
+    padding: 30px 0 10px 0;
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    background: hsla(0,0%,100%,.95);
+
+}

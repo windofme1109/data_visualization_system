@@ -1,0 +1,117 @@
+.platform-data-container {
+    /*
+    width: calc(50% - 35px);
+    */
+    width: 48%;
+    height: 500px;
+    position: relative;
+    float:right;
+    box-sizing: border-box;
+    border: 1px solid #2C58A6;
+    /*margin-left:2%;*/
+    margin-right: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #2C58A6;
+}
+
+
+.l_t_line{
+    width: 5px;
+    height: 24px;
+    left: -3px;
+    top: -3px;
+}
+.t_l_line{
+    height: 5px;
+    width: 26px;
+    left: -3px;
+    top: -3px;
+}
+.t_line_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.t_line_box i{
+    background-color: #4788fb;
+    box-shadow: 0px 0px 10px #4788fb;
+    position: absolute;
+}
+.t_r_line{
+    height: 5px;
+    width: 26px;
+    right: -3px;
+    top: -3px;
+}
+.r_t_line{
+    width: 5px;
+    height: 24px;
+    right: -3px;
+    top: -3px;
+}
+.l_b_line{
+    width: 5px;
+    height: 24px;
+    left: -3px;
+    bottom: -3px;
+}
+.b_l_line{
+    height: 5px;
+    width: 26px;
+    left: -3px;
+    bottom: -3px;
+}
+.r_b_line{
+    width: 5px;
+    height: 24px;
+    right: -3px;
+    bottom: -3px;
+}
+.b_r_line{
+    height: 5px;
+    width: 26px;
+    right: -3px;
+    bottom: -3px;
+}
+.platform-data-container .main_title {
+    width: 180px;
+    height: 35px;
+    line-height: 33px;
+    background-color: #2C58A6;
+    border-radius: 18px;
+    position: absolute;
+    top: -17px;
+    left:50%;
+    transform: translateX(-50%);
+    /*margin-left: -110px;*/
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+.platform-data-container .main_title img{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.platform-data-container .platform-data-chart-1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform-data-container .platform-data-chart-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+#age-distribution,#height-distribution,#weight-distribution,#user-amount {
+    width: 50%;
+    height: auto;
+    /*border: 1px solid black;*/
+    margin-top: 25px;
+}

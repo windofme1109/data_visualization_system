@@ -1,0 +1,25 @@
+.admin-info {
+
+    color: #fff;
+    font-size: 1.1em;
+
+
+
+}
+
+.admin-info .basic-info,.advanced-info {
+    margin: 50px auto;
+}
+
+.admin-avatar {
+    text-align: center;
+}
+
+.basic-info div:nth-child(n-1) {
+    margin-top: 15px;
+    text-align: center;
+}
+.advanced-info div:nth-child(n-1) {
+    margin-top: 15px;
+    text-align: center;
+}

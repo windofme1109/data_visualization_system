@@ -1,0 +1,20 @@
+
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 22px;
+
+  min-width: 320px;
+  /*添加背景图片，center/cover是position和size的合写*/
+  /*background: url('./assets/images/login-background.jpg') center/cover no-repeat;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
