@@ -1,15 +1,11 @@
 import {combineReducers} from 'redux'
 
-// import {getRedirectTo} from '../utils/index'
+
 import {
     AUTH_SUCCESS,
     AUTH_FAILURE,
     RESET_USER_INFO,
     RECEIVE_USER_INFO,
-    RECEIVE_USER_LIST,
-    RECEIVE_MSG_LIST,
-    READ_MSG,
-    RECEIVE_MSG,
     GET_USER_HEARTRATE_HEALTH_DATA,
     GET_USER_BLOODOXYGEN_HEALTH_DATA,
     GET_USER_STEP_HEALTH_DATA,
