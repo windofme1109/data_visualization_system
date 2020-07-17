@@ -44,15 +44,6 @@ var scatterChartOption = {
     //     }
     // },
 
-
-    // legend: {
-    //     top: 20,
-    //     right: 10,
-    //     data: ['heartrate', 'bloodoxygen', 'bloodpressure'],
-    //     textStyle: {
-    //         color: '#666'
-    //     }
-    // },
     dataZoom: {
         // 对图形的每一个坐标轴都设置区域缩放，这样实现对于每一个坐标轴的单独控制
         // 有几种缩放类型
