@@ -15,17 +15,38 @@ const heartRateSchema = new Schema({
 }) ;
 
 const userInfoSchema = new Schema({
-    'userID': Number,
+    'userID': {
+        type: Number,
+        required: true
+    },
     'dataType': String,
-    'birthyear': Number,
-    'age': Number,
-    'height': Number,
-    'weight': Number,
+    'birthyear': {
+        type: Number,
+        required: true
+    },
+    'age': {
+        type: Number,
+        required: true
+    },
+    'height': {
+        type: Number,
+        required: true
+    },
+    'weight': {
+        type: Number,
+        required: true
+    },
     'average_heartrate': Number,
     'average_diastolic': Number,
     'average_systolic': Number,
-    'blood_oxygen': Number,
-    'BMI': Number,
+    'blood_oxygen': {
+        type: Number,
+        required: true
+    },
+    'BMI': {
+        type: Number,
+        required: true
+    },
 }) ;
 
 
