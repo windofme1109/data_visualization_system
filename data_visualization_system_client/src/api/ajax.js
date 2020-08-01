@@ -38,4 +38,8 @@ export default function ajax(url, params={}, method='GET') {
 
 // 大虎妞第一次进来
 // huniu second time comes in
+<<<<<<< HEAD
 // huniu third comes in
+=======
+// dahu first comes in
+>>>>>>> 33125abc5825f8fe0e421398141fe541f511196b
