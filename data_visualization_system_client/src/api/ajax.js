@@ -32,15 +32,14 @@ export default function ajax(url, params={}, method='GET') {
         return axios.get(newUrl) ;
 
     } else if (method === 'POST') {
-        return axios.post(url, params) ;
+        return axios.post(url, params);
     }
 }
 
 // 大虎妞第一次进来
-// huniu second time comes in
+// huniu second time comes ins
 // dahu first comes in
 // dahu second comes in
-
 // huniu third comes in
 // dahu first comes in
 // dahu second comes in
@@ -49,3 +48,5 @@ export default function ajax(url, params={}, method='GET') {
 // huniu fifth comes in
 
 // huniu 6th
+
+// dahu 7th
