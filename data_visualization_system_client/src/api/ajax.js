@@ -35,3 +35,5 @@ export default function ajax(url, params={}, method='GET') {
         return axios.post(url, params) ;
     }
 }
+
+// 大虎妞第一次进来
