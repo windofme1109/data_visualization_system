@@ -19,53 +19,9 @@ export const reqRegister = ({username, password, email}) => {
     return ajax('/register', {username, password, email}, 'POST') ;
 }
 
-/**
- * 更新用户信息
- * @param userInfo
- * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
- */
-
-export const reqUpdateUserInfo = (userInfo) => {
-    return ajax('/update', userInfo, 'POST') ;
-}
 
 /**
- * 获取登录用户的信息
- * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
- */
-export const reqGetUser = () => {
-    return ajax('/user') ;
-}
-
-
-/**
- * 获取用户列表
- * @param type
- * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
- */
-export const reqGetUserList = (type) => {
-    return ajax('/userlist', {type}, 'GET') ;
-}
-
-/**
- *  获取聊天消息列表
- * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
- */
-export const reqReceiveMsgList = () => {
-    return ajax('/msglist') ;
-}
-
-// 修改消息由未读状态变为已读状态
-/**
- *
- * @param from 消息的发送者
- * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
- */
-export const reqReadMsg = (from) => {
-    return ajax('/readmsg', {from: from}, 'POST') ;
-}
-/**
- *
+ * 请求用户的基础健康数据的接口
  * @param userID
  * @param dataType
  * @returns {Promise<AxiosResponse<T>> | Promise<AxiosResponse<T>> | undefined}
